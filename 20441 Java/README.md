@@ -1,1 +1,1 @@
-Code that I wrote during a beginner java course at The Open University
+Code I wrote during a Java programming course for beginners at the Open University
