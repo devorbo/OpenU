@@ -1,0 +1,106 @@
+
+insert a command
+the command is: 
+
+
+insert a command
+the command is: read_mat MAT_C,123.6,abc,8
+
+Argument is not a real number
+
+insert a command
+the command is: read_mat MAT_D,45,87,9,3,
+
+Illegal comma
+
+insert a command
+the command is: read_mat MAT_B, 4-,2
+
+Argument is not a real number
+
+insert a command
+the command is: read_mat  MAT_A ,  1,1,1,	,1	, 2,2,2, 2,3 ,3 ,3 ,3 ,4,4 	,4,4-
+
+Multiply consecutive commas
+
+insert a command
+the command is: read_mat MAT_E
+
+no number had passed in
+
+insert a command
+the command is: 
+
+
+insert a command
+the command is: print MAT_A
+
+Undefined command name
+
+insert a command
+the command is: print_mat  ,   MAT_B
+
+Illegal comma
+
+insert a command
+the command is: print_mat MAT_D,
+
+Illegal comma
+
+insert a command
+the command is: print_mat MAT_X
+
+Undefined matrix name
+
+insert a command
+the command is: print_mat # MAT_B
+
+Missing comma
+
+insert a command
+the command is: 
+
+
+insert a command
+the command is: do_it MAT_C
+
+Undefined command name
+
+insert a command
+the command is: 
+
+
+insert a command
+the command is: 	add_mat MAT_D MAT_E MAT_F
+
+Missing comma
+
+insert a command
+the command is: sub_mat MAT_A, , MAT_B, MAT_C
+
+Multiply consecutive commas
+
+insert a command
+the command is:       		mul_scalar MAT_A, MAT_B, MAT_C 
+
+Argument is not a scalar
+
+insert a command
+the command is: mul_mat MAT_C
+
+Missing Argument
+
+insert a command
+the command is: trans_mat MAT_X,MAT_X
+
+Undefined matrix name
+
+insert a command
+the command is: trans_mat 2,MAT_D
+
+Undefined matrix name
+
+insert a command
+the command is:    stop now
+
+Extraneous text after end of command 

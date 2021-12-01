@@ -1,0 +1,22 @@
+
+read_mat MAT_C,123.6,abc,8
+read_mat MAT_D,45,87,9,3,
+read_mat MAT_B, 4-,2
+read_mat  MAT_A ,  1,1,1,	,1	, 2,2,2, 2,3 ,3 ,3 ,3 ,4,4 	,4,4-
+read_mat MAT_E
+
+print MAT_A
+print_mat  ,   MAT_B
+print_mat MAT_D,
+print_mat MAT_X
+print_mat # MAT_B
+
+do_it MAT_C
+
+	add_mat MAT_D MAT_E MAT_F
+sub_mat MAT_A, , MAT_B, MAT_C
+      		mul_scalar MAT_A, MAT_B, MAT_C 
+mul_mat MAT_C
+trans_mat MAT_X,MAT_X
+trans_mat 2,MAT_D
+   stop now
