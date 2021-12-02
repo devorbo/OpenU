@@ -3,7 +3,6 @@ import java.util.*;
  * MMN 14 - implement the question from MMN 11 Q2a in different ways using various algorithm and strategies 
  *
  * @author Devora Borowski
- * @id 345811723
  * @version 4.6.2021
  */
 public class Solution
